@@ -1,0 +1,9 @@
+|ShiftReg
+Q <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Clock => inst3.CLK
+Clock => inst2.CLK
+Clock => inst1.CLK
+Clock => inst.CLK
+D => inst.DATAIN
+
+

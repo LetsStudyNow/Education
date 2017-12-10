@@ -1,0 +1,9 @@
+|Dtr
+Q <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst11.IN0
+CLK => inst3.IN0
+CLK => inst4.IN0
+D => inst.IN1
+nQ <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+

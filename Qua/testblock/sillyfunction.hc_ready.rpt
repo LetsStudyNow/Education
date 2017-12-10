@@ -1,0 +1,211 @@
+HardCopy Design Readiness Check report for sillyfunction
+Fri Oct 13 15:13:14 2017
+Quartus II Version 9.1 Build 304 01/25/2010 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. HardCopy Design Readiness Check Summary
+  3. Setting Check Summary
+  4. Global Settings
+  5. Instance Settings
+  6. Operating Settings
+  7. I/O Check Summary
+  8. Missing I/O Standard Assignment
+  9. Missing Board Model Far C Assignment
+ 10. Missing Pin Location Assignment
+ 11. Missing Termination Assignment
+ 12. PLL Usage Check Summary
+ 13. RAM Usage Check Summary
+ 14. HardCopy Design Readiness Check Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++------------------------------------------------------------------------------+
+; HardCopy Design Readiness Check Summary                                      ;
++----------------------------------------+-------------------------------------+
+; HardCopy Design Readiness Check Status ; Analyzed - Fri Oct 13 15:13:14 2017 ;
+; Revision Name                          ; sillyfunction                       ;
+; Top-level Entity Name                  ; sillyfunction                       ;
+; Family                                 ; HardCopy III                        ;
+; Device                                 ; HC335FF1517                         ;
++----------------------------------------+-------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setting Check Summary                                                                                                                                                                                             ;
++--------------------+------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Checking Area      ; Status     ; Reason                                                                                                                                                                          ;
++--------------------+------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Global Settings    ; Warning    ; 2 global setting(s) do not meet recommendation. Review the recommendation and perform the appropriate correction because it may affect the result of the migration to HardCopy. ;
+; Instance Settings  ; Successful ;                                                                                                                                                                                 ;
+; Operating Settings ; Successful ;                                                                                                                                                                                 ;
++--------------------+------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------+
+; Global Settings                                                                                                                                ;
++----------------------------------------------------------------+---------------------------------------+---------------------------------------+
+; Option                                                         ; Actual Setting                        ; Recommended Setting                   ;
++----------------------------------------------------------------+---------------------------------------+---------------------------------------+
+; Enable Design Assistant                                        ; OFF                                   ; ON                                    ;
+; Reserve all unused pins                                        ; AS INPUT TRI-STATED WITH WEAK PULL-UP ; AS INPUT TRI-STATED WITH WEAK PULL-UP ;
+; Optimize Hold Timing                                           ; ALL PATHS                             ; ALL PATHS                             ;
+; Optimize Multi-Corner Timing                                   ; OFF                                   ; ON                                    ;
+; Perform Multicorner Analysis                                   ; ON                                    ; ON                                    ;
+; Enable HardCopy Design Readiness Check                         ; ON                                    ; ON                                    ;
+; Use Checkered Pattern as Uninitialized RAM Content             ; OFF                                   ; OFF                                   ;
+; Perform Physical Synthesis for Combinational Logic for Fitting ; OFF                                   ; OFF                                   ;
+; Perform Logic to Memory Mapping for Fitting                    ; OFF                                   ; OFF                                   ;
+; Perform Register Duplication for Performance                   ; OFF                                   ; OFF                                   ;
+; Perform Asynchronous Signal Pipelining                         ; OFF                                   ; OFF                                   ;
+; Constrain core resources for migration                         ; ON                                    ; ON                                    ;
++----------------------------------------------------------------+---------------------------------------+---------------------------------------+
+
+
++---------------------------------------------------------------------------+
+; Instance Settings                                                         ;
++------------------------------------+----------------+---------------------+
+; Option                             ; Actual Setting ; Recommended Setting ;
++------------------------------------+----------------+---------------------+
+; Virtual clock reference            ; --             ; --                  ;
+; Virtual Pin                        ; --             ; --                  ;
+; Virtual Pin Clock                  ; --             ; --                  ;
+; Virtual Pin for SignalTap II       ; --             ; --                  ;
+; Virtual Pin Clock for SignalTap II ; --             ; --                  ;
+; SignalProbe Enable                 ; --             ; --                  ;
+; SignalProbe Source                 ; --             ; --                  ;
++------------------------------------+----------------+---------------------+
+
+
++---------------------------------------------------------------------------------------------------------+
+; Operating Settings                                                                                      ;
++----------------------+-------+--------------------------------------------------------------------------+
+; Setting              ; Value ; Info                                                                     ;
++----------------------+-------+--------------------------------------------------------------------------+
+; Nominal Core Voltage ; 0.9V  ; HardCopy III devices only support 0.9V core voltage. No action required. ;
++----------------------+-------+--------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; I/O Check Summary                                                                                                                                                                                                            ;
++-------------------------------------------------+------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Checking Area                                   ; Status     ; Reason                                                                                                                                                        ;
++-------------------------------------------------+------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Input Clock Not on Dedicated Clock Pin Position ; Successful ;                                                                                                                                                               ;
+; Missing Current Strength Assignment             ; Successful ;                                                                                                                                                               ;
+; Missing I/O Standard Assignment                 ; Warning    ; 4 pin(s) have no explicit I/O Standard assignments provided in the Quartus II Settings File. Add a specific I/O Standard assignment for these pins.           ;
+; Missing Board Model Far C Assignment            ; Warning    ; 1 pin(s) have no explicit Board Model Far C assignments provided in the Quartus II Settings File. Add a specific Board Model Far C assignment for these pins. ;
+; Missing Pin Location Assignment                 ; Warning    ; 4 pin(s) have no explicit Pin Location assignments provided in the Quartus II Settings File. Add a specific Pin Location assignment for these pins.           ;
+; Missing Termination Assignment                  ; Warning    ; 4 pin(s) have no explicit Termination assignments provided in the Quartus II Settings File. Add a specific Termination assignment for these pins.             ;
+; Unconnected Pin                                 ; Successful ;                                                                                                                                                               ;
++-------------------------------------------------+------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++----------------------------------------+
+; Missing I/O Standard Assignment        ;
++-----+-----------+----------------------+
+; Pin ; Direction ; Default I/O Standard ;
++-----+-----------+----------------------+
+; b   ; input     ; 2.5 V                ;
+; a   ; input     ; 2.5 V                ;
+; c   ; input     ; 2.5 V                ;
+; y   ; output    ; 2.5 V                ;
++-----+-----------+----------------------+
+
+
++--------------------------------------------------+
+; Missing Board Model Far C Assignment             ;
++-----+-----------+--------------------------------+
+; Pin ; Direction ; Default Board Model Far C (pF) ;
++-----+-----------+--------------------------------+
+; y   ; output    ; 0                              ;
++-----+-----------+--------------------------------+
+
+
++--------------------------------------------+
+; Missing Pin Location Assignment            ;
++-----+-----------+--------------------------+
+; Pin ; Direction ; Fitter Assigned Location ;
++-----+-----------+--------------------------+
+; b   ; input     ; C39                      ;
+; a   ; input     ; C38                      ;
+; c   ; input     ; K32                      ;
+; y   ; output    ; J33                      ;
++-----+-----------+--------------------------+
+
+
++-----------------------------------------------------+
+; Missing Termination Assignment                      ;
++-----+-----------+-----------------------------------+
+; Pin ; Direction ; Default Termination               ;
++-----+-----------+-----------------------------------+
+; b   ; input     ; Off                               ;
+; a   ; input     ; Off                               ;
+; c   ; input     ; Off                               ;
+; y   ; output    ; Series 50 Ohm without Calibration ;
++-----+-----------+-----------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------+
+; PLL Usage Check Summary                                                                                      ;
++-----------------------------------------------------------------+------------+-------------------------------+
+; Checking Area                                                   ; Status     ; Reason                        ;
++-----------------------------------------------------------------+------------+-------------------------------+
+; PLLs Not Reconfigurable In Real-Time                            ; Successful ; No PLL is found in the design ;
+; PLLs Clock Outputs Drives Multiple Clock Network Types          ; Successful ; No PLL is found in the design ;
+; PLLs With No Compensation Mode                                  ; Successful ; No PLL is found in the design ;
+; PLLs With Normal or Source-Synchronous Mode Feeding Output Pins ; Successful ; No PLL is found in the design ;
++-----------------------------------------------------------------+------------+-------------------------------+
+
+
++--------------------------------------------------------------+
+; RAM Usage Check Summary                                      ;
++-----------------+------------+-------------------------------+
+; Checking Area   ; Status     ; Reason                        ;
++-----------------+------------+-------------------------------+
+; Initialized RAM ; Successful ; No RAM is found in the design ;
++-----------------+------------+-------------------------------+
+
+
++------------------------------------------+
+; HardCopy Design Readiness Check Messages ;
++------------------------------------------+
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: hc_ready.tcl version #1
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Warning: 2 global setting(s) do not meet recommendation. Review the recommendation and perform the appropriate correction because it may affect the result of the migration to HardCopy.
+Warning: 4 pin(s) have no explicit I/O Standard assignments provided in the Quartus II Settings File. Add a specific I/O Standard assignment for these pins.
+Warning: 1 pin(s) have no explicit Board Model Far C assignments provided in the Quartus II Settings File. Add a specific Board Model Far C assignment for these pins.
+Warning: 4 pin(s) have no explicit Pin Location assignments provided in the Quartus II Settings File. Add a specific Pin Location assignment for these pins.
+Warning: 4 pin(s) have no explicit Termination assignments provided in the Quartus II Settings File. Add a specific Termination assignment for these pins.
+Info: Quartus II HardCopy Design Readiness Check was successful. 0 errors, 5 warnings
+    Info: Peak virtual memory: 532 megabytes
+    Info: Processing ended: Fri Oct 13 15:13:14 2017
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:05
+
+

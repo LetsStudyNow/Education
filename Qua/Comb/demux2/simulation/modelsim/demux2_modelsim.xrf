@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, demux2
+source_file = 1, H:/Students/Digital/Qua/Comb/demux2/demux2.bdf
+source_file = 1, H:/Students/Digital/Qua/Comb/demux2/demux2.vwf
+source_file = 1, H:/Students/Digital/Qua/Comb/demux2/db/demux2.cbx.xml
+design_name = demux2
+instance = comp, \D~I , D, demux2, 1
+instance = comp, \A0~I , A0, demux2, 1
+instance = comp, \A1~I , A1, demux2, 1
+instance = comp, \0~I , 0, demux2, 1
+instance = comp, \1~I , 1, demux2, 1
+instance = comp, \2~I , 2, demux2, 1
+instance = comp, \3~I , 3, demux2, 1

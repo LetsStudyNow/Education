@@ -1,0 +1,12 @@
+Fitter Status : Successful - Mon Oct 09 13:50:24 2017
+Quartus II Version : 9.1 Build 304 01/25/2010 SP 1 SJ Full Version
+Revision Name : count1
+Top-level Entity Name : count1
+Family : Cyclone
+Device : EP1C3T100C8
+Timing Models : Final
+Total logic elements : 4 / 2,910 ( < 1 % )
+Total pins : 5 / 65 ( 8 % )
+Total virtual pins : 0
+Total memory bits : 0 / 59,904 ( 0 % )
+Total PLLs : 0 / 1 ( 0 % )

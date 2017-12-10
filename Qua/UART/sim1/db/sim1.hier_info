@@ -1,0 +1,7 @@
+|sim1
+d <= 11.DB_MAX_OUTPUT_PORT_TYPE
+RxD => 11.IN0
+RxD => 1.DATAIN
+16fc => 1.CLK
+
+

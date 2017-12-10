@@ -1,0 +1,14 @@
+Fitter Status : Successful - Fri Oct 13 15:13:08 2017
+Quartus II Version : 9.1 Build 304 01/25/2010 SP 1 SJ Full Version
+Revision Name : sillyfunction
+Top-level Entity Name : sillyfunction
+Family : HardCopy III
+Device : HC335FF1517
+Timing Models : Preliminary
+Total HCells : 2,001 / 9,774,880 ( < 1 % )
+Total pins : 4 / 880 ( < 1 % )
+Total virtual pins : 0
+Total block memory bits : 0 / 16,662,528 ( 0 % )
+DSP block 18-bit elements : 0
+Total PLLs : 0 / 12 ( 0 % )
+Total DLLs : 0 / 4 ( 0 % )

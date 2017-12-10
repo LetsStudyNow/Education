@@ -1,0 +1,15 @@
+|Count
+Q1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst1.ACLR
+CLRN => inst2.ACLR
+CLRN => inst3.ACLR
+CLK => inst1.CLK
+CLK => inst2.CLK
+CLK => inst3.CLK
+PRN => inst1.PRESET
+PRN => inst3.PRESET
+PRN => inst2.PRESET
+Q2 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+

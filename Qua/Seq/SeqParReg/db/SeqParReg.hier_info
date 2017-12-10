@@ -1,0 +1,19 @@
+|SeqParReg
+Y2 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+C2 => inst5.IN0
+C2 => inst4.IN0
+C2 => inst3.IN0
+nR => inst2.ACLR
+nR => inst1.ACLR
+nR => inst.ACLR
+C1 => inst2.CLK
+C1 => inst1.CLK
+C1 => inst.CLK
+D => inst.DATAIN
+S => inst.PRESET
+S => inst1.PRESET
+S => inst2.PRESET
+Y1 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+Y0 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,43 @@
+Quartus II
+Version 9.1 Build 304 01/25/2010 Service Pack 1 SJ Full Version
+44
+3269
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+CountDec
+# storage
+db|CountDec.(0).cnf
+db|CountDec.(0).cnf
+# case_insensitive
+# source_file
+countdec.bdf
+ea45165d3ee3c56a6e67258a8c5cd51
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

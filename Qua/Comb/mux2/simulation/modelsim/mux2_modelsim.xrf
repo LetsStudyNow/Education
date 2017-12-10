@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, mux2
+source_file = 1, H:/Students/Digital/Qua/Comb/mux2/mux2.bdf
+source_file = 1, H:/Students/Digital/Qua/Comb/mux2/mux2.vwf
+source_file = 1, H:/Students/Digital/Qua/Comb/mux2/db/mux2.cbx.xml
+design_name = mux2
+instance = comp, \D1~I , D1, mux2, 1
+instance = comp, \S~I , S, mux2, 1
+instance = comp, \D2~I , D2, mux2, 1
+instance = comp, \inst7~0 , inst7~0, mux2, 1
+instance = comp, \Y~I , Y, mux2, 1

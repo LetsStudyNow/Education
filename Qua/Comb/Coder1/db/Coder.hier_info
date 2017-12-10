@@ -1,0 +1,23 @@
+|Coder
+ex8 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+9 => inst.IN0
+9 => inst12.IN0
+9 => inst12.IN5
+8 => inst.IN1
+ex4 <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+4 => inst10.IN0
+6 => inst10.IN1
+6 => inst11.IN1
+7 => inst10.IN2
+7 => inst11.IN2
+7 => inst12.IN4
+5 => inst10.IN3
+5 => inst12.IN3
+ex2 <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+2 => inst11.IN0
+3 => inst11.IN3
+3 => inst12.IN1
+ex1 <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+1 => inst12.IN2
+
+

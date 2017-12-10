@@ -1,0 +1,9 @@
+|dffe_project
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+PRN => inst.PRESET
+CLRN => inst.ACLR
+D => inst.DATAIN
+CLK => inst.CLK
+ENA => inst.ENA
+
+
